@@ -28,7 +28,9 @@ export default class GLSLLintingProvider implements vscode.CodeActionProvider {
     '.rahit',
     '.rchit',
     '.rmiss',
-    '.rcall'];
+    '.rcall',
+    '.glc',
+    '.glsl'];
 
   private includers: { [key: string]: Array<string> } = {};
 
